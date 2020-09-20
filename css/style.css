@@ -1,0 +1,1421 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    z-index: 2;
+    top: 0px;
+    background-color: black;
+    position: fixed;
+    opacity: 0.70;
+    height: 85px;
+}
+
+.logo_puente{
+    display: block;
+    position: relative;
+    top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+/* Inicio de Banner */
+
+.banner{
+    top: -20px;
+    height: 1500px;
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -1100px;
+    background-image: url('../img/Oficina\ Virtual.jpg');
+}
+
+.banner > div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.contenedor_banner{
+    position: relative;
+    width: 100%;
+    top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    display: block;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.direccion{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.contenedor_flex_banner{
+    position: relative;
+    width: 230px;
+    top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.valor{
+    position: relative;
+    height: 70px;
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.valor_tex{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.icon-phone{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 45px;
+    top: 25px;
+    
+}
+
+.icon-coin-dollar{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 45px;
+    top: 25px;
+
+}
+
+.icon-alarm{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 45px;
+    top: 25px;
+}
+
+/* Fin de Banner */
+
+/* Inicio Obtendrás */
+
+.beneficios{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 30px;
+    max-width: 1000px;
+}
+
+.contenedor_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.obtendras{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+}
+
+.beneficios_ico1{
+    position: relative;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    height: 180px;
+    border-radius: 30px;
+    box-shadow: 0px 1px 6px #7E9913;
+    display: inline-block;
+    background-color: #F7F7F7;
+    
+}
+
+.icon-office{
+    position: absolute;
+    font-size: 70px;
+    top: 85px;
+    color: gray;
+    left: 120px;
+}
+.beneficios_tex1{
+    position: absolute;
+    font-size: 30px;
+    top: 20px;
+    left:30px;
+}
+
+.beneficios_ico2{
+    position: relative;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    height: 180px;
+    box-shadow: 0px 1px 6px #7E9913;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: #F7F7F7;
+    
+}
+.icon-rss{
+    position: absolute;
+    font-size: 70px;
+    top: 80px;
+    color: gray;
+    left: 120px;
+
+}
+.beneficios_tex2{
+    position: absolute;
+    font-size: 30px;
+    top: 20px;
+    left:20px;
+}
+
+.beneficios_ico3{
+    position: relative;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    height: 180px;
+    border-radius: 30px;
+    box-shadow: 0px 1px 6px #7E9913;
+    display: inline-block;
+    background-color: #F7F7F7;
+    
+}
+
+.icon-credit-card{
+    position: absolute;
+    font-size: 80px;
+    top: 75px;
+    color: gray;
+    left: 112px;
+}
+.beneficios_tex3{
+    position: absolute;
+    font-size: 30px;
+    top: 20px;
+    left:85px;
+}
+.beneficios_ico4{
+    position: relative;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    height: 180px;
+    border-radius: 30px;
+    box-shadow: 0px 1px 6px #7E9913;
+    display: inline-block;
+    background-color: #F7F7F7;
+    
+}
+
+.icon-stack{
+    position: absolute;
+    font-size: 70px;
+    top: 95px;
+    color: gray;
+    left: 115px;
+
+}
+
+.beneficios_tex4{
+    position: absolute;
+    font-size: 30px;
+    top: 20px;
+    left:70px;
+}
+
+.beneficios_ico5{
+    position: relative;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    height: 180px;
+    border-radius: 30px;
+    box-shadow: 0px 1px 6px #7E9913;
+    display: inline-block;
+    background-color: #F7F7F7;
+    
+}
+.icon-spinner10{
+    position: absolute;
+    font-size: 70px;
+    top: 80px;
+    color: gray;
+    left: 115px;
+
+}
+
+.beneficios_tex5{
+    position: absolute;
+    font-size: 30px;
+    top: 20px;
+    left:100px;
+}
+
+.beneficios_ico6{
+    position: relative;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    height: 180px;
+    border-radius: 30px;
+    box-shadow: 0px 1px 6px #7E9913;
+    display: inline-block;
+    background-color: #F7F7F7;
+    
+}
+
+.icon-users{
+    position: absolute;
+    font-size: 65px;
+    top: 95px;
+    color: gray;
+    left: 115px;
+}
+
+.beneficios_tex6{
+    position: absolute;
+    font-size: 30px;
+    top: 15px;
+    left:75px;
+}
+
+/* Fin Obtendrás */
+
+/* Inicio Espíritu */
+
+h2{
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.conten-esp{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.esp{
+    text-align: center;
+    padding-bottom: 20px;
+    line-height:32px;
+    font-size: 20px;
+}
+
+/* Fin Espiritu */
+
+/* Inicio Planes */
+
+.planes{
+    background-color: #F7F7F7;
+}
+
+h3{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 25px;
+
+}
+
+.container_flexi{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.description_servi{
+    width: 350px;
+    margin: 20px;
+    position: relative;
+    box-shadow: 0px 1px 6px #7E9913;
+    margin-top: 30px;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: top;
+    background-image: url('../img/Emprendimiento.jpg');
+}
+
+.servides_conten{
+    background-color: white;
+    position: absolute;
+    height: 300px;
+    bottom: 0;
+
+}
+
+.plan1{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.planov{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.precio_tex{
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.costoN{
+    color: red;
+    text-decoration-line: line-through;
+    padding-left: 20px;
+    font-size: 20px;
+
+}
+
+.dos{
+    padding-top: 10px;
+}
+.costoO{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+
+.link_ac{
+    text-decoration: none;
+    color: black;
+}
+
+.llamado1{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    background-color: #7E9913;
+    bottom: 20px;
+}
+
+.quiero{
+    color: white;
+    position: absolute;
+    left: 18px;
+    font-size: 12px;
+    top: 8px;
+}
+
+.description_servi2{
+    width: 350px;
+    margin: 20px;
+    position: relative;
+    box-shadow: 0px 1px 6px #7E9913;
+    margin-top: 30px;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: top;
+    background-image: url('../img/Empresa.jpg');
+}
+
+.servides_conten2{
+    background-color: white;
+    position: absolute;
+    height: 300px;
+    bottom: 0;
+
+}
+
+.plan2{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.planov2{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.precio_tex2{
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.costoN2{
+    color: red;
+    text-decoration-line: line-through;
+    padding-left: 20px;
+    font-size: 20px;
+
+}
+
+.dos2{
+    padding-top: 10px;
+}
+.costoO2{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+
+.link_ac2{
+    text-decoration: none;
+    color: black;
+}
+
+.llamado2{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    background-color: #7E9913;
+    bottom: 20px;
+}
+
+.quiero2{
+    color: white;
+    position: absolute;
+    left: 18px;
+    font-size: 12px;
+    top: 8px;
+}
+
+/* Fin Planes */
+
+/* Inicio mensajes */
+
+.mensajes{
+    height: 800px;
+}
+
+.mensaje1{
+    width: 60%;
+    position: absolute;
+    left: 0;
+    margin-top:100px;
+    height: 700px;
+    background-image: url('../img/Bien\ Común.jpg');
+    background-size: 1050px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -2;
+}
+
+.titulo{
+    color: white;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: 580px;
+}
+
+.titulodes{
+    display: none;
+}
+
+.mensaje2{
+    width: 60%;
+    position: absolute;
+    right: 0;
+    margin-top: -30px;
+    height: 700px;
+    background-image: url('../img/Natural.jpg');
+    background-size: 1060px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.titulo2{
+    margin-top: 120px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+/* Fin mensajes */
+
+/* Inicio Confiado */
+
+.confiado{
+    margin-top: 20px;
+}
+
+h4{
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.flex_confiado{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 20px;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.confia{
+    margin: 30px;
+    height: 130px;
+}
+.ptd{
+    height: 200px;
+}
+
+.w{
+    height: 200px;
+}
+
+.munam{
+    height: 200px;
+}
+
+.acong{
+    height: 250px;
+}
+
+h5{
+    text-align: center;
+    font-size: 40px;
+}
+/* Fin de clientes */
+
+/* Inicio de testimonio */
+
+
+.flex_testi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.flex_item_testimonio{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    box-shadow: 0px 1px 6px #7E9913;
+    border-radius: 200px;
+    height: 300px;
+}
+
+.mc{
+    background-image: url('../img/Glauco.jpeg');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gz{
+    background-image: url('../img/Foto\ Gonzalo\ PSD.jpg');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.xv{
+    background-image: url('../img/Foto\ Marcelo.jpg');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.info_card_lk{
+    text-align: center;
+    margin-top: 320px;
+}
+
+/* Fin de testimonio */
+
+/* Inicio de formulario */
+
+.contacto{
+    margin-top: 30px;
+
+}
+
+.contac{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cajetilla{
+    position: absolute;
+    width: 310px;
+    height: 750px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 550px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1;
+
+}
+.formula{
+    position: relative;
+    margin: auto;
+    top: 20px;
+    padding-bottom: 100px;
+    width: 300px;
+}
+
+/* Fin de formulario */
+
+/* Inicio de footer */
+
+
+footer{
+    margin-top: 70px;
+    position: relative;
+    width: 100%;
+    background-color: black;
+    height: 120px;
+}
+
+.logo_fot{
+    height: 55px;
+    position: absolute;
+    left: 6%;
+    top: 30px;
+}
+
+.rrss{
+    position: absolute;
+    right: 20%;
+    top: 55px;
+}
+
+.link_logo{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.icon-facebook{
+    font-size: 25px;
+}
+
+.icon-instagram{
+    font-size: 25px;
+}
+
+.icon-linkedin2{
+    font-size: 25px;
+}
+
+.dato_contac{
+    display: none;
+}
+
+
+
+
+@media screen and (min-width:680px){
+
+.quiero_banner{
+    position: absolute;
+    width: 120px;
+    height: 45px;
+    top: 300px;
+    left:43%;
+}
+.quieroo2{
+    font-size: 15px;
+    top: 13px;
+    left: 20px;
+}
+
+    /* Banner */
+
+    .contenedor_banner{
+        position: relative;
+        width: 100%;
+        top: 180px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+        display: block;
+    }
+
+    .contenedor_flex_banner{
+        position: relative;
+        width: 100%;
+        top: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: space-around;
+    }
+
+    .valor{
+        position: relative;
+        height: 70px;
+        width: 180px;
+        margin-top: 60px;
+
+    }
+    
+    .valor_tex{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .icon-phone{
+        color: white;
+        font-size: 40px;
+        position: absolute;
+        left: 79px;
+        top: 25px;
+        
+    }
+    
+    .icon-coin-dollar{
+        color: white;
+        font-size: 40px;
+        position: absolute;
+        left: 73px;
+        top: 25px;
+    
+    }
+    
+    .icon-alarm{
+        color: white;
+        font-size: 40px;
+        position: absolute;
+        left: 70px;
+        top: 25px;
+    }
+
+    br{
+        display: none;
+    }
+    /* Fin Banner */
+
+    /* Inicio mensajes */
+
+.mensajes{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 95px;
+}
+
+.mensaje1{
+    width: 60%;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    height: 1000px;
+    background-size: 1050px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -2;
+}
+
+.titulo{
+    color: white;
+    width: 250px;
+    font-size: 30px;
+    margin-left: 6%;
+    margin-top: 350px;
+}
+
+.titulodes{
+    display: block;
+    font-size: 20px;
+    margin-left: 6%;
+    margin-top: 35px;
+    width: 250px;
+    line-height:27px;
+    color: white;
+}
+
+.mensaje2{
+    width: 60%;
+    position: absolute;
+    right: 0;
+    margin-top: -150px;
+    height: 1000px;
+  
+    background-size: 1060px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.titulo2{
+    margin-top: 400px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+/* Fin mensajes */
+
+/* Inicio confiado */
+
+
+h4{
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.flex_confiado{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 20px;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.confia{
+    margin: 30px;
+    height: 100px;
+}
+.ptd{
+    height: 200px;
+}
+
+.w{
+    height: 180px;
+}
+
+.munam{
+    height: 180px;
+}
+
+.acong{
+    height: 180px;
+}
+
+h5{
+    text-align: center;
+    font-size: 40px;
+}
+/* Fin Confiado */
+
+.dato_contac{
+    display: none;
+}
+
+.cajetilla{
+    position: absolute;
+    width: 310px;
+    height: 800px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 550px;
+    border-radius: 20px;
+    border: 2px solid white;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .5);
+
+}
+.formula{
+    position: relative;
+    margin: auto;
+    top: 20px;
+    padding-bottom: 100px;
+    width: 300px;
+}
+
+}
+
+@media screen and (min-width:1024px){
+
+
+    .banner{
+        top: -30px;
+        height: 950px;
+        position: relative;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .contenedor_banner{
+        position: relative;
+        width: 300px;
+        top: 250px;
+        margin-left: 15%;
+        max-width: 600px;
+        display: block;
+    }
+
+    .contenedor_flex_banner{
+        position: relative;
+        top: 250px;
+        margin-left: 18%;
+        max-width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: space-around;
+    }
+    h1{
+        text-align:left;
+        font-size: 45px;
+        color: white;
+    }
+    .direccion{
+        text-align: center;
+        position: relative;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .valor{
+        position: relative;
+        height: 70px;
+        width: 120px;
+        margin-bottom: 20px;
+    }
+    
+    .valor_tex{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+    
+    .icon-phone{
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        left: 45px;
+        top: 25px;
+        
+    }
+    
+    .icon-coin-dollar{
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        left: 45px;
+        top: 25px;
+    
+    }
+    
+    .icon-alarm{
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        left: 45px;
+        top: 25px;
+    }
+    
+
+
+
+    
+
+        /* Inicio mensajes */
+
+.mensajes{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.mensaje1{
+    width: 60%;
+    position: absolute;
+    left: 0;
+    margin-top: -200px;
+    height: 1400px;
+  
+    background-size: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -2;
+}
+
+.titulo{
+    color: white;
+    width: 250px;
+    font-size: 30px;
+    margin-left: 15%;
+    margin-top: 550px;
+}
+
+.titulodes{
+    display: block;
+    font-size: 20px;
+    margin-left:15%;
+    margin-top: 35px;
+    width: 300px;
+    line-height:27px;
+    color: white;
+}
+
+.mensaje2{
+    width: 60%;
+    position: absolute;
+    right: 0;
+    margin-top: -150px;
+    height: 1000px;
+   
+    background-size: 1400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.titulo2{
+    margin-top: 400px;
+    margin-left: 15%;
+    font-size: 30px;
+    color: white;
+}
+
+/* Fin mensajes */
+
+/* Inicio Confiado */
+
+.confiado{
+    margin-top: 20px;
+}
+
+h4{
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.flex_confiado{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 20px;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.confia{
+    margin: 30px;
+    height: 130px;
+}
+.ptd{
+    height: 200px;
+}
+
+.w{
+    height: 200px;
+}
+
+.munam{
+    height: 200px;
+}
+
+.acong{
+    height: 250px;
+}
+
+h5{
+    text-align: center;
+    font-size: 40px;
+}
+/* Fin de clientes */
+
+/* Inicio de formulario */
+
+.contacto{
+    margin-top: 100px;
+    position: relative;
+    height: 450px;
+}
+
+.contac{
+    font-size: 40px;
+    text-align: left;
+    margin-left: 19%;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    margin-bottom: 30px;
+}
+
+.cajetilla{
+    position: absolute;
+    width: 310px;
+    height: 750px;
+    left: 500px;
+    right: 0;
+    margin: auto;
+    top: 100px;
+    border-radius: 20px;
+    border: 2px solid white;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .5);
+
+}
+.formula{
+    position: relative;
+    margin: auto;
+    top: 20px;
+    padding-bottom: 100px;
+    width: 300px;
+}
+footer{
+    margin-top: 350px;
+    position: relative;
+    width: 100%;
+    background-color: black;
+    height: 120px;
+}
+
+.dato_contac{
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 19%;
+}
+
+.direccion2, .email, .hora{
+    color: black;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.verde{
+    color: #7E9913;
+}
+
+/* Fin de formulario */
+
+
+}
+
+@media screen and (min-width:1400px){
+    .banner{
+        top: -50px;
+        height: 1000px;
+        position: relative;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       
+    }
+
+    .contenedor_banner{
+        position: relative;
+        width: 300px;
+        top: 250px;
+        margin-left: 15%;
+        max-width: 600px;
+        display: block;
+    }
+
+    .contenedor_flex_banner{
+        position: relative;
+        top: 250px;
+        margin-left: 18%;
+        max-width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: space-around;
+    }
+    h1{
+        text-align:left;
+        font-size: 45px;
+        color: white;
+    }
+    .direccion{
+        text-align: center;
+        position: relative;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .valor{
+        position: relative;
+        height: 70px;
+        width: 120px;
+        margin-bottom: 20px;
+    }
+    
+    .valor_tex{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+    
+    .icon-phone{
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        left: 45px;
+        top: 25px;
+        
+    }
+    
+    .icon-coin-dollar{
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        left: 45px;
+        top: 25px;
+    
+    }
+    
+    .icon-alarm{
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        left: 45px;
+        top: 25px;
+    }
+    
+
+    
+
+    .mensajes{
+        height: 800px;
+        width: 100%;
+        margin-bottom: 350px;
+    }
+    
+    .mensaje1{
+        width: 60%;
+        position: absolute;
+        left: 0;
+        margin-top: -300px;
+        height: 1800px;
+       
+        background-size: 1500px;
+        background-position: right;
+        background-repeat: no-repeat;
+        z-index: -2;
+    }
+    
+    .titulo{
+        color: white;
+        width: 350px;
+        font-size: 30px;
+        margin-left: 12%;
+        margin-top: 800px;
+    }
+    
+    .titulodes{
+        display: block;
+        font-size: 30px;
+        margin-left:12%;
+        margin-top:100px;
+        width: 450px;
+        line-height:27px;
+        color: white;
+    }
+    
+    .mensaje2{
+        width: 60%;
+        position: absolute;
+        right: 0;
+        margin-top: -320px;
+        height: 1500px;
+       
+        background-size: 1300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+    
+    .titulo2{
+        margin-top: 900px;
+        margin-left: 12%;
+        font-size: 45px;
+        color: white;
+        /* margin-bottom: 300px; */
+    }
+    .cajetilla{
+        position: absolute;
+        width: 310px;
+        height: 750px;
+        left: 1000px;
+        right: 0;
+        margin: auto;
+        top: 100px;
+        border-radius: 20px;
+        border: 2px solid white;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, .5);
+    
+    }
+    .formula{
+        position: relative;
+        margin: auto;
+        top: 20px;
+        padding-bottom: 100px;
+        width: 300px;
+    }
+}
